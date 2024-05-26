@@ -20,28 +20,43 @@ class _HomePageState extends State<HomePage> {
             height: 500,
             width: double.maxFinite,
             color: Colors.blueGrey,
+            child: Center(
+              child: Text("Main"),
+            ),
           ),
           //Skills
           Container(
             height: 500,
             width: double.maxFinite,
+            child: Center(
+              child: Text("Skills"),
+            ),
           ),
           //Projects
           Container(
             height: 500,
             width: double.maxFinite,
             color: Colors.blueGrey,
+            child: Center(
+              child: Text("Projects"),
+            ),
           ),
           //Contact
           Container(
             height: 500,
             width: double.maxFinite,
+            child: Center(
+              child: Text("Contact"),
+            ),
           ),
           //Footer
           Container(
             height: 500,
             width: double.maxFinite,
             color: Colors.blueGrey,
+            child: Center(
+              child: Text("Footer"),
+            ),
           ),
         ],
       ),
